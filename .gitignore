@@ -2,11 +2,13 @@
 *.pyc
 *~
 __pycache__
+github_settings.py
 
 # Env
 .env
 myvenv/
 venv/
+dvenv/
 
 # Database
 db.sqlite3
