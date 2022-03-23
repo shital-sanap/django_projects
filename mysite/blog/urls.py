@@ -4,8 +4,10 @@ from . import views
 
 app_name = "blog"
 
-urlpatterns = []
-'''    path('', views.MainView.as_view(), name='all'),
+urlpatterns = [ 
+    path('', views.post_list, name='post_list'),
+]
+'''   
     path('main/create/', views.AutoCreate.as_view(), name='auto_create'),
     path('main/<int:pk>/update/', views.AutoUpdate.as_view(), name='auto_update'),
     path('main/<int:pk>/delete/', views.AutoDelete.as_view(), name='auto_delete'),
